@@ -89,9 +89,9 @@ const translations = {
         placeholderEmail: 'Ваш email',
         placeholderMessage: 'Описание вашего проекта',
         contactSubmit: 'ОТПРАВИТЬ',
-        stat1Description: 'Товарных знаков зарегистрировано',
+        stat1Description: 'Брендов проверили и сопроводили',
         stat2Description: 'Довольных клиентов',
-        stat3Description: 'Гарантия результата',
+        stat3Description: 'Гарантия по договору',
         langLabelShort: 'RU'
     },
     kk: {
@@ -142,9 +142,9 @@ const translations = {
         placeholderEmail: 'Email-іңіз',
         placeholderMessage: 'Жобаңыз туралы қысқаша сипаттама',
         contactSubmit: 'ЖІБЕРУ',
-        stat1Description: 'Тау та таңбасы тіркелген',
+        stat1Description: 'Бренд тексеріліп, сүйемелденді',
         stat2Description: 'Қанағаттанған клиенттер',
-        stat3Description: 'Нәтиже кепілі',
+        stat3Description: 'Шарт бойынша кепілдік',
         langLabelShort: 'KZ'
     },
     en: {
@@ -198,9 +198,9 @@ const translations = {
         menuButtonClose: 'Close',
         menuButtonOpen: 'Menu',
         menuButtonClose: 'Close',
-        stat1Description: 'Trademarks registered',
+        stat1Description: 'Brands reviewed and supported',
         stat2Description: 'Satisfied clients',
-        stat3Description: 'Success guarantee',
+        stat3Description: 'Guarantee under the agreement',
         langLabelShort: 'EN'
     }
 };
