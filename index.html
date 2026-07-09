@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markly - Регистрация товарного знака</title>
+    <meta name="description" content="Регистрация товарного знака и охрана авторских прав. 100% гарантия регистрации или возврат денег. Бесплатная проверка бренда - напишите в WhatsApp.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="markly-logo.png" alt="Markly">
+                    <span>MARKLY</span>
+                </div>
+                <button class="menu-toggle" aria-label="Открыть меню">
+                    <span class="menu-icon">☰</span>
+                </button>
+                <nav class="nav">
+                    <a href="#about" data-key="navAbout">О нас</a>
+                    <a href="#services" data-key="navServices">Услуги</a>
+                    <a href="#process" data-key="navProcess">Этапы</a>
+                    <a href="#contacts" data-key="navContacts">Контакты</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="lang-dropdown">
+                        <button type="button" class="lang-dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                            <span class="lang-label">RU</span>
+                            <span class="lang-arrow">▾</span>
+                        </button>
+                        <div class="lang-menu">
+                            <button type="button" class="lang-option active" data-lang="ru">Русский</button>
+                            <button type="button" class="lang-option" data-lang="kk">Қазақша</button>
+                            <button type="button" class="lang-option" data-lang="en">English</button>
+                        </div>
+                    </div>
+
+                    <div class="social-quick" aria-hidden="false">
+                        <a class="social-icon whatsapp" href="https://wa.me/87776384767?text=Здравствуйте! Я пишу вам с сайта Markly" aria-label="Написать в WhatsApp" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+                            <!-- WhatsApp SVG -->
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M20.52 3.48A11.9 11.9 0 0 0 12 0C5.373 0 .005 5.373.005 12c0 2.116.55 4.184 1.595 6.012L0 24l6.218-1.61A11.904 11.904 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.205-1.25-6.213-3.48-8.52z" fill="#25D366"/>
+                                <path d="M17.472 14.382c-.297-.149-1.758-.868-2.03-.967-.273-.1-.472-.149-.672.15-.198.297-.768.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.15-.174.199-.298.298-.497.099-.198.05-.372-.025-.52-.075-.149-.672-1.618-.92-2.219-.242-.583-.487-.503-.672-.512l-.573-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.075 4.487 0 0 .002 0 .003 0 .273.118.486.187.652.24.274.09.524.074.722-.045.198-.12 1.223-1.004 1.397-1.763.174-.758.174-1.407.123-1.763-.051-.357-.178-.518-.375-.667z" fill="#fff"/>
+                            </svg>
+                            <span class="badge">+1</span>
+                        </a>
+
+                        <a class="social-icon instagram" href="https://www.instagram.com/markly.kz/" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">
+                            <!-- Instagram SVG -->
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <linearGradient id="igGrad" x1="0" x2="1" y1="0" y2="1">
+                                    <stop offset="0%" stop-color="#f58529"/>
+                                    <stop offset="50%" stop-color="#dd2a7b"/>
+                                    <stop offset="100%" stop-color="#515bd4"/>
+                                </linearGradient>
+                                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z" fill="url(#igGrad)"/>
+                                <path d="M12 7.25A4.75 4.75 0 1 0 12 16.75 4.75 4.75 0 0 0 12 7.25zm0 7.75a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="#fff"/>
+                                <circle cx="17.5" cy="6.5" r="0.75" fill="#fff"/>
+                            </svg>
+                            <span class="badge">+1</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-key="heroTitle">Регистрация товарного знака и защита авторских прав</h1>
+            <p data-key="heroSubtitle">100% гарантия регистрации или возврат денег. Зарегистрировали более 500 брендов. Работаем по всему Казахстану.</p>
+            <a href="https://wa.me/87776384767?text=Здравствуйте! Я пишу вам с сайта Markly" class="btn-primary" data-key="heroCta">БЕСПЛАТНАЯ ПРОВЕРКА</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-key="aboutTitle">О компании Markly</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-key="aboutText">Мы специализируемся на регистрации товарных знаков и охране авторских прав. Зарегистрировали более 500 брендов, работаем по всему Казахстану, оказываем полное сопровождение - от проверки уникальности до получения свидетельства. Гарантируем результат: 100% регистрация или возврат денег. Для бесплатной проверки бренда напишите нам в WhatsApp.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p data-key="stat1Description">Товарных знаков зарегистрировано</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p data-key="stat2Description">Довольных клиентов</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p data-key="stat3Description">Гарантия результата</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-key="servicesTitle">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3 data-key="service1Title">Регистрация товарного знака</h3>
+                    <p data-key="service1Text">Сопровождение этапов подачи заявки и получения официального свидетельства.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-key="service2Title">Проверка уникальности</h3>
+                    <p data-key="service2Text">Анализ обозначения и поиск схожих зарегистрированных знаков.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-key="service3Title">Подготовка документов</h3>
+                    <p data-key="service3Text">Полный пакет документов, заполнение заявок и сопровождение подачи.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-key="service4Title">Международное оформление</h3>
+                    <p data-key="service4Text">Поддержка регистрации бренда через международные системы.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-key="service5Title">Защита прав</h3>
+                    <p data-key="service5Text">Консультации и помощь в случае споров по использованию вашего знака.</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-key="service6Title">Персональная поддержка</h3>
+                    <p data-key="service6Text">Помогаем выбрать лучший путь регистрации для вашего бизнеса.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 data-key="processTitle">Наш подход</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3 data-key="process1Title">Анализ бренда</h3>
+                    <p data-key="process1Text">Оцениваем предложение, изучаем категорию и определяем оптимальную стратегию защиты.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3 data-key="process2Title">План действий</h3>
+                    <p data-key="process2Text">Согласовываем правильный механизм регистрации и готовим пошаговый маршрут.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3 data-key="process3Title">Оформление заявки</h3>
+                    <p data-key="process3Text">Готовим документы, подаем заявку и сопровождаем всю коммуникацию с регистратором.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3 data-key="process4Title">Контроль результата</h3>
+                    <p data-key="process4Text">Отслеживаем статус, информируем вас и передаем готовое свидетельство.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 data-key="ctaTitle">Защитите ваш бренд уже сегодня</h2>
+            <p data-key="ctaText">Гарантируем получение товарного знака или бесплатная повторная подача заявки</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/87776384767?text=Здравствуйте! Я пишу вам с сайта Markly. Я заинтересован в регистрации товарного знака" class="btn-primary" data-key="ctaButton">НАПИСАТЬ В WHATSAPP</a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 data-key="contactsTitle">Контакты</h2>
+            <div class="contacts-content" style="display:flex; justify-content:center; align-items:center;">
+                <div class="contact-item" style="max-width:580px; width:100%; text-align:center;">
+                    <h3 data-key="contactTitleWhatsapp">WhatsApp</h3>
+                    <p style="margin:8px 0 18px; font-weight:600;"><a href="https://wa.me/87776384767?text=Здравствуйте! Я хочу оставить заявку через WhatsApp">+7 (777) 638-47-67</a></p>
+                    <p style="color:#555; margin-bottom:20px; line-height:1.6;" data-key="contactDescription">Все заявки и консультации принимаются через WhatsApp. Пожалуйста, напишите нам - мы оперативно ответим и поможем с регистрацией вашего бренда.</p>
+                    <a class="btn-primary" data-key="whatsapp" href="https://wa.me/87776384767?text=Здравствуйте! Я хочу бесплатную проверку бренда" target="_blank" rel="noopener noreferrer">НАПИСАТЬ В WHATSAPP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Markly. Все права защищены.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/markly.kz/">Instagram</a>
+                <a href="https://wa.me/87776384767?text=Здравствуйте! Я пишу вам с сайта Markly.">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
